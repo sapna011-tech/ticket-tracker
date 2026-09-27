@@ -1,0 +1,11 @@
+id,title,type,priority,status,assignee,created,due,description
+TKT-001,Set up project repository and CI pipeline,Task,High,Done,Arjun,2026-09-01,2026-09-05,Create GitHub repo and add GitHub Actions for lint and tests
+TKT-002,Design database schema for user accounts,Task,High,Done,Priya,2026-09-02,2026-09-08,Tables for users roles and sessions
+TKT-003,Login page throws 500 on wrong password,Bug,Critical,In Progress,Riya,2026-09-10,2026-09-20,Should show a friendly error message instead of a server error
+TKT-004,Add password reset via email,Feature,High,In Review,Arjun,2026-09-11,2026-09-30,Send reset link valid for 30 minutes
+TKT-005,Dashboard loads slowly with 1000+ records,Improvement,Medium,To Do,Priya,2026-09-12,2026-10-10,Add pagination and index on created_at
+TKT-006,Export tickets to CSV from the UI,Feature,Low,To Do,Unassigned,2026-09-14,2026-10-20,Button on the ticket list page
+TKT-007,Mobile layout breaks on the settings page,Bug,Medium,Blocked,Riya,2026-09-15,2026-09-25,Waiting on final designs from UX team
+TKT-008,Write API documentation,Task,Medium,In Progress,Karan,2026-09-16,2026-10-05,Document all REST endpoints with examples
+TKT-009,Add role-based access control,Feature,High,To Do,Karan,2026-09-18,2026-10-15,Admin / Manager / Member roles
+TKT-010,Upgrade dependencies to latest versions,Improvement,Low,Done,Arjun,2026-09-20,2026-09-24,Fix security warnings from Dependabot
